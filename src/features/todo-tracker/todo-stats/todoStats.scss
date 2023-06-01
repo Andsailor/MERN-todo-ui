@@ -1,0 +1,32 @@
+.stats {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+        background: #333333;
+        border-radius: 999px;
+        padding: 2px 8px;
+        color: #D9D9D9;
+        margin-left: 5px;
+    }
+
+    &-all {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 15px;
+        color: #4EA8DE;
+    }
+
+    &-done {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 15px;
+        color: #8284FA;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats {
+        justify-content: space-around;
+    }
+}

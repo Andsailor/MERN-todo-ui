@@ -1,0 +1,34 @@
+.skeleton {
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+
+    &-image {
+        display: block;
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+
+    &-message {
+        margin-top: 16px;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        color: #808080;
+        line-height: 22px;
+
+        span {
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .skeleton {
+        &-image {
+            margin-top: 40px;
+        }
+    }
+}

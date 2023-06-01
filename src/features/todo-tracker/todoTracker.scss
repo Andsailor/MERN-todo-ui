@@ -1,0 +1,39 @@
+.tracker {
+    max-width: 736px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    &-content {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tracker {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 576px) {
+    .tracker {
+        max-width: 468px;
+    }
+}
+
+@media (max-width: 510px) {
+    .tracker {
+        max-width: 408px;
+    }
+}
+
+@media (max-width: 440px) {
+    .tracker {
+        max-width: 353px;
+    }
+}
+
+@media (max-width: 375px) {
+    .tracker {
+        max-width: 309px;
+    }
+}
