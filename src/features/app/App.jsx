@@ -18,7 +18,7 @@ function App() {
     }, []);
 
     const deleteTask = (id) => {
-        request(`https://mern-todo-list-50k4jmxxf-andsailor.vercel.app/api/todos/${id}`, 'DELETE')
+        request(`http://localhost:5000/api/todos/${id}`, 'DELETE')
             .then(getAllTasks);
     }
 
@@ -28,7 +28,7 @@ function App() {
     }
 
     const toggleTaskStatus = (id, task, isTaskDone) => {
-        request(`https://mern-todo-list-50k4jmxxf-andsailor.vercel.app/api/todos`, 'PUT', JSON.stringify({
+        request(`http://localhost:5000/api/todos`, 'PUT', JSON.stringify({
             _id: id,
             task: task,
             isTaskDone: !isTaskDone,

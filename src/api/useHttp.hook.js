@@ -4,7 +4,7 @@ const useHttp = () => {
 
     const [error, setError] = useState(false);
 
-    const _apiURL = 'https://mern-todo-list-50k4jmxxf-andsailor.vercel.app/api/todos';
+    const _apiURL = 'http://localhost:5000/api/todos';
 
     const request = async (url = _apiURL, method = "GET", body = null, headers = { 'Content-Type': 'application/json;charset=utf-8' }) => {
 
