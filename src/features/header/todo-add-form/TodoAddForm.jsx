@@ -14,7 +14,7 @@ function TodoAddForm({ getAllTasks }) {
 
         const todo = { task };
 
-        request('http://localhost:5000/api/todos', 'POST', JSON.stringify(todo))
+        request('https://mern-todo-node-js-4b3z.vercel.app/api/todos', 'POST', JSON.stringify(todo))
             .then(getAllTasks);
 
         setTask('');
