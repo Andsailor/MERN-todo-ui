@@ -11,7 +11,7 @@ function Header({ getAllTasks }) {
             <div className='header-logo'>
                 <img className='header-logo_rocket' src={rocket} alt='rocket todo logo' />
                 <img className='header-logo_todo' src={todo} alt='todo logo' />
-                <a className='header-logo_github' href='https://github.com/Andsailor/MERN-todo-list'>
+                <a className='header-logo_github' href='https://github.com/Andsailor/MERN-todo-ui'>
                     <img
                         src='https://static-00.iconduck.com/assets.00/github-emoji-2048x2021-w2ge0ghn.png'
                         alt="github link icon" />
